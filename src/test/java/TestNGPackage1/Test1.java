@@ -10,6 +10,7 @@ public class Test1
    public void openApp(){
       WebDriver driver = new FirefoxDriver();
       driver.get("http://newtours.demoaut.com");
+      System.out.println(driver.getTitle());
    }
    
 }
